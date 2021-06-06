@@ -101,6 +101,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../
 }
 .card1{
 text-align: left;
+margin-bottom: 30px;
 }
 .fa-calendar-week{
     color: yellow;
