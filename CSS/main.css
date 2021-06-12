@@ -16,6 +16,8 @@ nav .navbar-nav li a{
 .navbar-toggler-icon{
     color: white;
 }
+/* header part css */
+
 
 #header{
 height: 500px;
@@ -49,6 +51,38 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../
     text-align: center;
 }
 
+
+
+
+/* about me css */
+
+
+#about_me{
+    text-align: center;
+    height: auto;
+    padding-top: 70px;
+    background-color: #222222;
+    color: #fff ;
+}
+.About{
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+    opacity: 40%;
+}
+.name{
+    font-weight: bold;;
+    font-size: 20px;
+}
+.caption{
+    text-align: center;
+}
+.btn{
+    color: #fff;
+}
+
+/*Qualification  section */
+
 .card1{
     margin-bottom: 10px;
     color:gray;
@@ -60,6 +94,9 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../
 .card:hover{
     transform: scale(1.04);
 }
+/*project section*/
+
+
 #my_project{
     padding-bottom: 50px;
     padding-top: 50px;
@@ -69,12 +106,14 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../
 .my_project_card{
     text-align: center;
     height:25rem;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color:gray;
 }
 .card-title{
     padding-bottom: 10px;
 }
+
+/*Contact me*/
 #Contect_me{
     background-color: #222222;
 }
