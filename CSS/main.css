@@ -112,6 +112,9 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../
 .card-title{
     padding-bottom: 10px;
 }
+.my-project-icon{
+    padding-bottom:10px ;
+}
 
 /*Contact me*/
 #Contect_me{
@@ -150,12 +153,4 @@ margin-bottom: 30px;
     padding-top: 20px ;
     padding-left: 20px;
 }
-.fa-book{
-    padding-bottom: 10px;
-}
-.fa-cloud-sun-rain{
-    padding-bottom: 10px;
-}
-.fa-bitcoin .fa-times-circle{
-    padding-bottom: 10px;
-} 
+ 
