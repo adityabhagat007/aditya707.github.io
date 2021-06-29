@@ -38,6 +38,33 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../
     text-align: center;
     color: white;
 }
+.main_header2{
+    text-align: center;
+    color: white;
+}
+.main_header2::after{
+    content: '|';
+    display: inline;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite ;
+    animation:blink 0.7s infinite ;
+}
+@keyframes blink{
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes blink{
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-moz-keyframes blink{
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 #Myresume{
     text-align: center;
     height: auto;
