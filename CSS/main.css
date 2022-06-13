@@ -68,7 +68,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../
 #Myresume{
     text-align: center;
     height: auto;
-    padding-top: 50px;
+    padding-top: 100px;
     background-color: #222222;
     color: #fff ;
 }
@@ -81,7 +81,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../
 #experience{
     text-align: center;
     height: auto;
-    padding-top: 50px;
+    padding-top: 10%;
     background-color: #222222;
     color: #fff ;
 }
@@ -89,17 +89,21 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../
 
 /* about me css */
 
+.aboutMeImage{
+    width: 900px;
+    height: auto;
+}
 
 #about_me{
     text-align: center;
     height: auto;
-    padding-top: 70px;
+    padding-top: 110px;
     background-color: #222222;
     color: #fff ;
 }
 .About{
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: normal;
     opacity: 40%;
 }
@@ -132,7 +136,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../
 
 #my_project{
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 300px;
     background-color: #222222;
     height: max-content;
 }
