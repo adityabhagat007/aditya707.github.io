@@ -4,6 +4,7 @@ html{
 body{
     margin: 0px;
     background-color: #222222;
+    height: 100vh;
 }
 .navbar-nav{
     margin-left: auto;
@@ -24,7 +25,7 @@ height: 500px;
 background-position: center center;
 background-size: cover;
 background-color: black;
-background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../images/IMG-20210119-WA0016.jpg);
+background-image: linear-gradient(rgba(156, 155, 155, 0.6),rgba(0, 0, 0, 0.6)),url(../images/IMG-20210119-WA0016.jpg);
 
 }
 @media(min-width: 800px){
@@ -85,7 +86,12 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../
     background-color: #222222;
     color: #fff ;
 }
-
+.experienceCard{
+ 
+  height:20rem;
+  margin-bottom: 100px;
+  color:gray;
+}
 
 /* about me css */
 
@@ -114,8 +120,9 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../
 .caption{
     text-align: center;
 }
-.btn{
-    color: #fff;
+
+.cv_button{
+    color: "white";
 }
 
 /*Qualification  section */
@@ -136,7 +143,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../
 
 #my_project{
     padding-bottom: 50px;
-    padding-top: 300px;
+    padding-top:250px;
     background-color: #222222;
     height: max-content;
 }
