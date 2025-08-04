@@ -379,18 +379,125 @@ filter: brightness(1.1) contrast(1.1) saturate(1.2);
 /*Contact me*/
 #Contect_me{
     background-color: #1a1a1a;
+    padding: 80px 0;
 }
 
-.email{
-    color: #ffffff;
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
 }
 
-.emailid{
-    padding-top:20px;
-    color:#e0e0e0;
+.contact-card {
+  background: linear-gradient(135deg, #2a2a2a, #333);
+  border-radius: 15px;
+  padding: 30px;
+  min-width: 280px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 193, 7, 0.1);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
-.contact_row{
-    padding-bottom: 20px;
+
+.contact-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 193, 7, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.contact-card:hover::before {
+  left: 100%;
+}
+
+.contact-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(255, 193, 7, 0.2);
+  border-color: rgba(255, 193, 7, 0.3);
+}
+
+.contact-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #ffc107, #ff8c00);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 15px rgba(255, 193, 7, 0.3);
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover .contact-icon {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(255, 193, 7, 0.5);
+}
+
+.contact-icon i {
+  font-size: 28px;
+  color: #333;
+}
+
+.contact-title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-detail {
+  color: #e0e0e0;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.5;
+  transition: color 0.3s ease;
+}
+
+.contact-card:hover .contact-detail {
+  color: #ffc107;
+}
+
+/* Mobile responsive for contact section */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-card {
+    min-width: 100%;
+    padding: 25px;
+  }
+  
+  .contact-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .contact-icon i {
+    font-size: 24px;
+  }
+  
+  .contact-title {
+    font-size: 16px;
+  }
+  
+  .contact-detail {
+    font-size: 14px;
+  }
 }
 .footer{
     text-align: center;
